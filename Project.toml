@@ -8,6 +8,7 @@ Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 MarkdownAST = "d0879d2d-cac2-40c8-9cee-1863dc0c7391"
 
 [compat]
+Documenter = "0.27"
 julia = "1.6"
 
 [extras]
