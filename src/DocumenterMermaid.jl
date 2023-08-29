@@ -10,7 +10,7 @@ const MERMAID = "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mj
 # standard runner for @example blocks, but creates a custom MarkdownAST block, which then
 # is dispatched on in the HTMLWriter (domify).
 abstract type MermaidExpander <: Documenter.Expanders.ExpanderPipeline end
-Selectors.matcher(::Type{MermaidExpander}, node, page, doc) = Documenter.Expanders.iscode(node, "mermaid")
+Selectors.matcher(::Type{MermaidExpander}, node, page, doc) = Documenter.iscode(node, "mermaid")
 Selectors.order(::Type{MermaidExpander}) = 7.9
 function Selectors.runner(::Type{MermaidExpander}, node, page, doc)
     node.element = MermaidBlock(node.element)
