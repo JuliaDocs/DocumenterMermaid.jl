@@ -20,7 +20,3 @@ graph TD
 
 To enable the package, simply load it in the `make.jl` script.
 Any code blocks tagged as `mermaid` will be rendered as diagrams in the generated HTML.
-
-!!! note
-
-    DocumenterMermaid.jl only works with the unpublished Documenter#master branch currently (i.e. >= 0.28).
