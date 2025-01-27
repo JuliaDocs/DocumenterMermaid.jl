@@ -3,7 +3,7 @@ using MarkdownAST: MarkdownAST, Node
 using Documenter: Documenter, Selectors, DOM
 using Documenter.HTMLWriter: DCtx
 
-const MERMAID = "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"
+const MERMAID = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs"
 
 # This digs deeper into Documenter internals, by defining a new at-block that gets evaluated
 # during the Documenter "expansion" step. The expansion of CollapsedExample re-uses the
