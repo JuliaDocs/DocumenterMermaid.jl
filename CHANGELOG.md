@@ -7,7 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Updated the link to the `mermaid.js` dependency so that Mermaid diagrams would appear correctly. ([#26])
+- Updated the link to the `mermaid.js` dependency so that Mermaid diagrams would appear
+  correctly. ([#24], [#25], [#26])
+- Minimum supported Julia version updated from 1.6 to 1.10. ([#27])
 
 ## Version [v0.2.0] - 2025-01-28
 
@@ -31,4 +33,9 @@ Initial release.
 [v0.1.0]: https://github.com/JuliaDocs/DocumenterMermaid.jl/releases/tag/v0.1.0
 [v0.1.1]: https://github.com/JuliaDocs/DocumenterMermaid.jl/releases/tag/v0.1.1
 [v0.2.0]: https://github.com/JuliaDocs/DocumenterMermaid.jl/releases/tag/v0.2.0
+[v0.2.1]: https://github.com/JuliaDocs/DocumenterMermaid.jl/releases/tag/v0.2.1
 [#13]: https://github.com/JuliaDocs/DocumenterMermaid.jl/issues/13
+[#24]: https://github.com/JuliaDocs/DocumenterMermaid.jl/issues/24
+[#25]: https://github.com/JuliaDocs/DocumenterMermaid.jl/issues/25
+[#26]: https://github.com/JuliaDocs/DocumenterMermaid.jl/issues/26
+[#27]: https://github.com/JuliaDocs/DocumenterMermaid.jl/issues/27
